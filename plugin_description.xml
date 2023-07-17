@@ -6,6 +6,13 @@
       Displays ROI octree.
     </description>
   </class>
+  <class name="octomap_vpp_rviz_plugin/CombinedOcTreeDisplay"
+         type="octomap_vpp_rviz_plugin::CombinedOcTreeDisplay"
+         base_class_type="rviz::Display">
+    <description>
+      Displays Combined octree.
+    </description>
+  </class>
   <class name="octomap_vpp_rviz_plugin/InflatedRoiOctreeDisplay"
          type="octomap_vpp_rviz_plugin::InflatedRoiOctreeDisplay"
          base_class_type="rviz::Display">

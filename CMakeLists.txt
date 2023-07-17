@@ -148,6 +148,7 @@ include_directories(
 # )
 add_library(${PROJECT_NAME}
     src/roi_octree_display.cpp include/octomap_vpp_rviz_plugin/roi_octree_display.h
+    src/combined_octree_display.cpp include/octomap_vpp_rviz_plugin/combined_octree_display.h
     src/inflated_roi_octree_display.cpp include/octomap_vpp_rviz_plugin/inflated_roi_octree_display.h
     src/counting_octree_display.cpp include/octomap_vpp_rviz_plugin/counting_octree_display.h
     src/workspace_octree_display.cpp include/octomap_vpp_rviz_plugin/workspace_octree_display.h
